@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #981e32, #5e6a71);
+    background-size: cover;
+}
+  
+header {
+    background-color: #981e32;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0px 2px 5px #ccc;
+}
+
+nav {
+    padding: 10px 0;
+}
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+  
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+  
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.2s ease;
+}
+
+nav a:hover {
+    color: #5e6a71;
+    border-radius: 5px;
+    background-color: #3f3f3f;
+}
+nav a.active {
+    background-color: #5e6a71;
+    color: #fff;
+}
+  
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+  
+section {
+    margin-bottom: 20px;
+}
+  
+section h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+  
+section p {
+    line-height: 1.5;
+}
+  
+section#projects li {
+    margin-bottom: 10px;
+}
+
+section#about {
+    background: linear-gradient(to bottom, #981e32, #fff);
+    padding: 20px;
+}
+        
+section#projects {
+    background-color: #5e6a71;
+}
+
+section#projects li:hover {
+    background-color: #5e6a71;
+}
+
+section#contact {
+    background-color: #5e6a71;
+    color: #fff;
+    padding: 20px;
+}
+  
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+  
+form input[type="submit"] {
+    background-color: #981e32;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
